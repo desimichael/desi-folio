@@ -1,6 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0fd303e8-4b53-49d2-b7fa-c4ba0405caaf/deploy-status)](https://app.netlify.com/sites/compassionate-boyd-50b604/deploys)
-#My Portfolio
-# My-Starter-Kit
+
+# My Portfolio
+
+# Starter-Kit
 
 ## Steps
 
