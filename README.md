@@ -1,11 +1,6 @@
-# Dev-Starter-Kit
- *For My Students* 
-If you are doing any of my courses make sure you are using the right version this project is using gulp version 4.0.1 to view previous versions switch branches to older version
-
-So I built this for all the new web developers... My Goal is to save you time from the bullsh*t of spending hours looking for ways to speed up your learning. Sometimes all we want to do is just code.
-(if you are coming from my [youtube channel CodingPhase ](https://www.youtube.com/channel/UC46wWUso9H5KPQcoL9iE3Ug) I will base all my tutorials from this starter kit)
-
-I broke it down in simple steps to get you going.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0fd303e8-4b53-49d2-b7fa-c4ba0405caaf/deploy-status)](https://app.netlify.com/sites/compassionate-boyd-50b604/deploys)
+#My Portfolio
+# My-Starter-Kit
 
 ## Steps
 
@@ -14,9 +9,6 @@ I broke it down in simple steps to get you going.
 
  **Install Node**
 	https://nodejs.org/en/
-
-**Download Atom (OPTIONAL)**
-	https://atom.io/
 
  **Install all the node packages** 
 In the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
@@ -69,9 +61,6 @@ We updated to version 4.0 of gulp so you should have no problems
   npm run static:build
 ```
 
-
-## Instructions to run starter kit on any backend
-Coming Soon
 
 # EACCESS ERROR FIX
 ```diff

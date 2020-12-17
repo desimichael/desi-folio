@@ -1,5 +1,5 @@
 {
-  "name": "codingphase-dev-kit",
+  "name": "desi-starter-kit",
   "version": "4.0.2",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "static:build": "gulp static-build",
     "imgs": "gulp imagemin"
   },
-  "author": "",
+  "author": "Desi Steib",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.5",
@@ -65,6 +65,7 @@
     "gulp-pug": "^4.0.1",
     "svelte": "^3.4.3",
     "svelte-loader": "^2.13.4",
+    "swiper": "^6.4.1",
     "webpack-dev-server": "^3.1.14"
   }
 }

@@ -1,0 +1,280 @@
+doctype html
+html(lang='en')
+  head
+    title Desi Steib Portfolio
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(name='description' content='My Portfolio')
+    meta(name='Desi Steib' content='Desi')
+    meta(charset='UTF-8')
+    // Fevicon
+    link(rel='icon' type='image/ico' href='favicon.ico')
+    // Vendors CSS
+    link(rel='stylesheet' href='css/vendors/swiper-bundle.min.css')
+    link(rel='stylesheet' href='css/vendors/font-awesome.min.css')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css')
+    // Custom CSS
+    link(rel='stylesheet' href='/css/styles.css')
+  body#top.home
+    main#wrap-all
+      // Header
+      header#header
+        // Header main
+        #header-main.header-area.bg-dark
+          // Logo
+          .module.logo
+            h1
+              a(href='#section-4') Portfolio
+          // Hamburger
+          a#toggle-menu.module.hamburger
+            span.line
+            span.line
+            span.line
+          // Menu
+          #menu-ui.module.menu.fullscreen
+            nav.menu-container
+              ul.menu-items.m-2x
+                li
+                  a(href='#section-5') Resume
+                li
+                  a(href='#section-4') Portfolio
+                li
+                  a(href='#section-10') Contact
+          // Scroll To Next
+          .module.icon-bottom
+            a.next-section(href='#section-2') ⟵
+        // /Hearer main
+        // Header Secondary
+        #header-secondary.header-area
+          .module.social
+            .share-title Share on:
+            // Social Icons
+            ul.social-icons
+              li
+                a.mr-1x(href='https://www.linkedin.com/in/desisteib/')
+                  i.fab.fa-linkedin
+              li
+                a.xl-mr-1x(href='https://twitter.com/desiwebdev11')
+                  i.fab.fa-twitter
+              li
+                a.xl-mr-1x(href='https://www.instagram.com/digi_blank/')
+                  i.fab.fa-instagram
+              li
+                a.xl-mr-1x(href='https://www.desiwebdev11@gmail.com')
+                  i.fab.fa-google
+        // /Header Secondary
+        // Content After Header
+        .content-wrapper
+          // Section 1
+          section#section-1.bg-accent.hero
+            .container.xl-grid-group
+              .xl-span-6
+                // Section Title
+                .hero-info.font-color-white
+                  h2.mb-1x Hello, I'm Desi
+                  h1.fluidz-48.mb-1x A Frontend Developer
+                  // Hero Info
+                  p.mb-1x
+                    | Firm believer that anything is possible with dedication and hard work...
+                  a.btn.bg-dark.font-color-base.btn-rounded(href='/img/myresume.pdf') Download CV
+              .xl-span-6
+                // Hero Image
+                .hero-img
+                  img(src='/img/headshot1.png' alt='headshot img')
+          // Section 2
+          section#section-2.about-section
+            .container.boxed.mx-a.xl-flex-group
+              // Section Title
+              h2.xl-flex-col-3.mb-2x About Me
+              .info.xl-flex-col-9
+                p.mb-1x
+                  | I'm a Self Taught FrontEnd Developer
+                  | located in Atlanta, Ga.
+                  | Working at OrangeTheory Fitness and seeing how developers created a unified product in fitness and technology sparked an interest that turned into a passion towards web development for me.
+                p
+                  | My focus is
+                  | on continuing to build the skills and growth towards aesthetically pleasing and dynamically
+                  | functional 
+                  strong FULL STACK
+                  |  applications. Outside of coding, I enjoy traveling and also of course fitness.
+              //
+                <div class="scroller">
+                <ul class="scroll-content fluidz-60">
+                <li>JS Master</li>
+                <li>React Expert</li>
+                <li>CSS Lover</li>
+                <li>HTML Buff</li>
+                <li>Node Guru</li>
+                <li>Angular Nerd</li>
+                </ul>
+                </div>
+            // / .container
+            // Section 3
+            section#section-3.bg-dark.font-color-white
+              .container
+                // Section Title
+                .section-title.mx-a.maxw-400x.center.mb-3x
+                  h2.mb-1x.font-color-dark-3x My Skills
+                  h3.fluidz-30 Never Stop Learning..
+                .carousel.swiper-container
+                  ul.card-group.scroll-x.xxl-cursor-unset.xl-flex-group.flex-cc.swiper-wrapper
+                    li.card-large.swiper-slide
+                      .icon
+                        i.fas.fa-laptop
+                      .title
+                        i.fab.fa-sass
+                        p.font-w6 SCSS
+                      .title
+                        i.fas.fa-exchange-alt
+                        p.font-w6 FLEXBOX
+                      .title
+                        i.fas.fa-th
+                        p.font-w6 GRID
+                    li.card-large.swiper-slide
+                      .icon
+                        i.fas.fa-laptop
+                      .title
+                        i.fas.fa-code
+                        p.font-w6 HTML
+                      .title
+                        i.fab.fa-css3-alt
+                        p.font-w6 CSS
+                      .title
+                        i.fab.fa-js-square
+                        p.font-w6 JAVASCRIPT
+                    li.card-large.swiper-slide
+                      .icon
+                        i.fas.fa-laptop
+                      .title
+                        i.fab.fa-git-alt
+                        p.font-w6 GIT
+                      .title
+                        i.fab.fa-laravel
+                        p.font-w6 PHP LARAVEL (lite)
+                      .title
+                        i.fab.fa-shopify
+                        p.font-w6 SHOPIFY (themes)
+                  // Add Pagination
+                  .swiper-pagination
+            // Section 4
+            section#section-4
+              .container.boxed.mx-a.xl-flex-group.xl-nowrap
+                // Section Title
+                h2.xl-flex-col-3.mb-2x My Projects
+                .xl-col-fill.mt-2x
+                  ul.card-group-dark.card-group-medium.flex-group.mx-a
+                    li.card-medium
+                      .content
+                        img.portfolio-image(src='/img/construction-landing.jpg' alt='image')
+                        .count 01
+                        .title Bricks Stone Construction 
+                        .info
+                          | Detailed responsive landing page with hierarchy typography with well placed animaitons.
+                      a.title.hover-content(href='javascript:void(0);') View Live ⟶
+                    li.card-medium
+                      .content
+                        img.portfolio-image(src='/img/italiano-restaurant.jpg' alt='image')
+                        .count 02
+                        .title Italiano Restaurant 
+                        .info
+                          | A responsive restaurant landing page.
+                      a.title.hover-content(href='javascript:void(0);') View Live ⟶
+                    li.card-medium
+                      .content
+                        img.portfolio-image(src='/img/restaurant-project.png' alt='image')
+                        .count 03
+                        .title Restaurant Project 
+                        .info
+                          | Full Stack Application utilizing Laravel for the backend, SEO, User Authentication with MAMP.
+                      a.title.hover-content(href='javascript:void(0);') View live ⟶
+        // Section 8
+        section#section-8
+          .container.boxed.mx-a.xl-flex-group.xl-nowrap
+            // Section Title
+            h2.xl-flex-col-3.mb-2x Services
+            .info.xl-flex-col-9
+              p.mb-1x
+                | My services consists of
+                | Bring to the table win-win survival strategies to ensure
+                | proactive domination. At the end of the day, going forward, a
+                | new normal that has evolved from generation towards a cloud
+                | solution to enahance performance everytime.
+              p
+                | Nanotechnology immersion along the information highway will
+                | close the doors for almost all common old problems.
+            .xl-col-fill.mt-2x
+              ul.card-group-light.card-group-medium.flex-group.mx-a
+                li.card-medium
+                  // <a href="#">
+                  .icon
+                    i.fas.fa-drafting-compass
+                  .title Web Development
+                  .info
+                    | Building functional dynamic websites that are visually appealing to the consumer.
+                  // </a>
+                li.card-medium
+                  // <a href="#">
+                  .icon
+                    i.fas.fa-poll
+                  .title Marketing
+                  .info
+                    | Experience in Sales and Marketing to benefit businesses growth.
+                  // </a>
+                li.card-medium
+                  // <a href="#">
+                  .icon
+                    i.fas.fa-info-circle
+                  .title SEO
+                  .info
+                    | Building to improve on having the competitive edge of daily business solutions.
+        // Section 10
+        section#section-10
+          .container.boxed.flex-group.mx-a
+            .xl-flex-col-6
+              // Section Title
+              h2.mb-2x Contact
+              .contact-title-sub
+                | Feel free to contact me...
+              // Form
+              .form-group-modern.maxw-400x
+                form(action='#' method='get')
+                  fieldset
+                    p.mt-1x
+                      label  Name
+                      input#firstName(placeholder='First Name' type='text' required='')
+                    p.mt-1x
+                      label E-mail
+                      input#email(placeholder='Email' type='email' required='')
+                    p.mt-1x
+                      label(for='message') What's your story?
+                      textarea#message(name='message' rows='5' cols='33') Message
+                    p.font-size-12.font-color-dark-3x.mt-1x
+                      | If you're a coach or network marketer who wants to make or
+                      | attract with ease, the is for you.
+                    p
+                      button.mt-1x(type='submit') Send Message
+              // /Form
+            .xl-off-left-1.xl-off-right-1.xl-flex-col-4.lg-mt-6x
+              .contact-img.hide.xl-block
+                img(src='/img/contact-me.jpg' alt='contact')
+        // / Content Wrapper
+        // Footer
+        footer#footer.bg-dark.font-color-white
+          .container.lg-flex-group.boxed.mx-a
+            .lg-flex-col-5.module-group-2
+              // Menu footer
+              ul.list-group-hr
+                li
+                  a.mr-1x(href='#') About
+                li
+                  a.mx-1x(href='#') Services 
+                li
+                  a.ml-1x(href='#') Contact 
+              p.ml-1x.copyright © 2020 desisteib.com
+    // /main Wrapper
+    // Vendors JS
+    script(src='/js/vendors/jquery.min.js')
+    script(src='/js/vendors/gsap.min.js')
+    script(src='/js/vendors/ScrollToPlugin3.min.js')
+    script(src='/js/vendors/swiper-bundle.min.js')
+    // Custom JS
+    script(src='js/app.js')

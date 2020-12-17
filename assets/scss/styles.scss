@@ -1,5 +1,5 @@
 @charset "UTF-8";
-// @import "reset";
+@import "swiper";
 /*------------------------------------------------------------------
 ================================================== 
 Table of Content 
@@ -98,7 +98,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  vertical-align: bottom;
+  // vertical-align: bottom;
 }
 
 input,
@@ -1795,10 +1795,13 @@ Cards
   height: 100%;
   display: grid;
   justify-content: center;
+  align-content: center;
   align-items: center;
   transition: all 0.85s cubic-bezier(0.19, 1, 0.22, 1);
 }
-
+.card-group-dark .hover-content .title:hover {
+  color: pink;
+}
 .card-group-dark .card-medium:hover {
   transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -2470,9 +2473,9 @@ Tab Seaction
 Testimonial
 -------------------------------------------
 */
-.testimonial-slider {
-  /* Progress bar*/
-}
+// .testimonial-slider {
+//   /* Progress bar*/
+// }
 
 .testimonial-slider .swiper-slide {
   border: 2rem solid transparent;
