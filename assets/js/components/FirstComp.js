@@ -5,7 +5,7 @@ class Layout extends Component {
 	constructor() {
 		super();
 		this.state = {
-			name: 'Joe'
+			name: 'Desi'
 		};
 	}
 	clickedBtn = () => {};
@@ -13,27 +13,7 @@ class Layout extends Component {
 	render() {
 		return (
 			<div className="home">
-				<div className="Aligner">
-					<div className="Aligner-item">
-						<img src="/img/logo.png" alt="codingphase logo" />
-						<h1>Dev-Starter-Kit</h1>
-						<div className="menu">
-							<ul>
-								<li>
-									<a href="http://starterkit.codingphase.com" target="new">
-										Documentation
-									</a>
-								</li>
-								<li>
-									<a href="http://www.codingphase.com" target="new">
-										CodingPhase.Com
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div className="version-num">version 4.0.0</div>
-					</div>
-				</div>
+				<h1>Desi Steib</h1>
 			</div>
 		);
 	}

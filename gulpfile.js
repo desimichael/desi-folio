@@ -36,7 +36,7 @@ gulp.task(
 gulp.task(
 	'webpack:dev',
 	gulp.series(cb => {
-		return exec('npm run dev:webpack', function(err, stdout, stderr) {
+		return exec('npm run dev:webpack', function (err, stdout, stderr) {
 			console.log(stdout);
 			console.log(stderr);
 			cb(err);
@@ -47,7 +47,7 @@ gulp.task(
 gulp.task(
 	'webpack:prod',
 	gulp.series(cb => {
-		return exec('npm run build:webpack', function(err, stdout, stderr) {
+		return exec('npm run build:webpack', function (err, stdout, stderr) {
 			console.log(stdout);
 			console.log(stderr);
 			cb(err);
@@ -58,7 +58,7 @@ gulp.task(
 // Browser-sync to get live reload and sync with mobile devices
 gulp.task(
 	'browser-sync',
-	gulp.series(function() {
+	gulp.series(function () {
 		browserSync.init({
 			server: './public',
 			notify: false,
@@ -71,7 +71,7 @@ gulp.task(
 // Use Browser Sync With Any Type Of Backend
 gulp.task(
 	'browser-sync-proxy',
-	gulp.series(function() {
+	gulp.series(function () {
 		// THIS IS FOR SITUATIONS WHEN YOU HAVE ANOTHER SERVER RUNNING
 		browserSync.init({
 			proxy: {
